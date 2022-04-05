@@ -70,6 +70,9 @@ img {
 
 @media (max-width: 500px) {
 
+    section {
+        gap: 30px;
+    }
     .pokemon {
         max-width: 110px;
         gap: 5px;
