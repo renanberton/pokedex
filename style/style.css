@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input:nth-child(2) {
+    text-align: center;
+    width: 200px;
+}
+
+input:nth-child(3) {
+    width: 150px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+    gap: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 50px auto;
+    width: 95%;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.pokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #8c8c8c;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+img {
+    width: 150px !important;
+    height: 150px;
+}
