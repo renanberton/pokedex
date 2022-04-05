@@ -68,7 +68,7 @@ img {
 @media (max-width: 500px) {
 
     .pokemon {
-        max-width: 100px;
+        max-width: 120px;
         gap: 5px;
         padding: 5px 25px;
     }
