@@ -26,7 +26,6 @@ fetch("https://pokeapi.co/api/v2/pokemon/" + i).then(resposta => {
         pokemon.appendChild(pokemonParagrafo1);        
         pokemon.appendChild(pokemonSpan);
         pokemon.appendChild(pokemonImg);
-        section.appendChild(pokemon);
-        
+        section.appendChild(pokemon);        
     })
 }
