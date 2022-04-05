@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #3A3845;
+}
+
 input:nth-child(2) {
     text-align: center;
     width: 200px;
@@ -35,7 +39,6 @@ section {
     flex-wrap: wrap;
     gap: 50px;
 }
-
 .pokemon {
     display: flex;
     justify-content: center;
@@ -68,7 +71,7 @@ img {
 @media (max-width: 500px) {
 
     .pokemon {
-        max-width: 120px;
+        max-width: 110px;
         gap: 5px;
         padding: 5px 25px;
     }
