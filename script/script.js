@@ -1,4 +1,4 @@
-for(var i = 0; i < 250; i++){
+for(var i = 1; i < 250; i++){
 fetch("https://pokeapi.co/api/v2/pokemon/" + i).then(resposta => {
     return resposta.json()
 }).then(corpo => {
