@@ -41,8 +41,8 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
-    background-color: #C69B7B;
+    gap: 5px;
+    background-color: #fff;
     color: #fff;
     padding: 20px;
     border-radius: 5px;
@@ -57,6 +57,11 @@ img {
 .pokemon p:nth-child(1){
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3A3845;
+    font-weight: 600;
+}
+
+.pokemon p, .pokemon span {
     color: #3A3845;
 }
 
